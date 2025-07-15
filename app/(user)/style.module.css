@@ -1,0 +1,6 @@
+.bgColor {
+  background-color: blue;
+}
+.bgColor:hover {
+  background-color: lightblue;
+}
