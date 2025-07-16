@@ -1,5 +1,10 @@
-.bgColor {
-  background-color: blue;
+.bgColors {
+background: #070707;
+background: linear-gradient(90deg, rgba(7, 7, 7, 0.52) 0%, rgba(67, 121, 226, 0.54) 21%, rgba(75, 136, 255, 0.55) 28%, rgba(85, 142, 248, 0.63) 37%, rgba(204, 217, 158, 0.6) 59%, rgba(211, 221, 153, 0.53) 70%, rgba(194, 203, 141, 0.57) 81%, rgba(7, 7, 7, 0.31) 100%);
+}
+
+.bgColor{
+  background: red;
 }
 .bgColor:hover {
   background-color: lightblue;
