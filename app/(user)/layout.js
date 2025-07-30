@@ -5,37 +5,37 @@ import { Work_Sans } from "next/font/google";
 
 export const metadata = {
   title: {
-    default: "Thapa Technical | Learn Web Development",
-    template: "%s | Thapa Technical",
+    default: "Sk Technical | Learn Web Development",
+    template: "%s | Sk Technical",
   },
   description:
-    "Free tutorials on React.js, Next.js, and web development by Thapa Technical.",
-  keywords: ["React", "Next.js", "Web Development", "Thapa Technical"],
+    "Free tutorials on React.js, Next.js, and web development by Sk Technical.",
+  keywords: ["React", "Next.js", "Web Development", "Sk Technical"],
   icons: {
-    icon: "/images/kody.png",
+    icon: "/vercel.svg",
   },
-  metadataBase: new URL("https://thapatechical.com"),
+  metadataBase: new URL("https://Sktechical.com"),
   openGraph: {
-    title: "Thapa Technical",
+    title: "Sk Technical",
     description: "Join the best web dev tutorials!",
     url: "https://yourdomain.com",
-    siteName: "Thapa Technical",
+    siteName: "Sk Technical",
     images: [
       {
-        url: "/og-image.png",
+        url: "/globe.png",
         width: 1200,
         height: 630,
-        alt: "Thapa Technical Logo",
+        alt: "Sk Technical Logo",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Thapa Technical",
-    description: "Learn Web Dev from scratch with Thapa Technical!",
-    creator: "@thapatechnical",
-    images: ["/og-image.png"],
+    title: "Sk Technical",
+    description: "Learn Web Dev from scratch with Sk Technical!",
+    creator: "@Sktechnical",
+    images: ["/globe.png"],
   },
 };
 
